@@ -63,4 +63,4 @@ classifier is trained on (see `src/ccpu/lexicon.py: focus_window`).
 - **双重标注**：约 300 篇由两个相互独立的 LLM 标注实例分别标注（不标明是重复项），计算 Cohen's κ（论文人工标注 κ = 0.843）。模型实例之间的一致性会高估人类标注者之间的一致性，人工盲审结果见 README。
 - **分歧裁决**：双标不一致的文章由第三方按本指南裁决，最终标签写入 `data/labels/cpu_labels.csv`。
 - **过滤器召回检查**：从*不含任何气候关键词*的文章中随机抽取 300 篇一同标注；若其中 CPU = 1 的比例接近 0，说明"无关键词即为 0"的预过滤不会显著漏检。
-- **人工复核**：`data/labels/human_review_sample.csv` 为分层随机抽取的 100 篇复核样本，复核者填写 `human_label` 列后运行 `python run.py review-agreement` 计算复核一致率。
+- **人工盲审（作者本人）**：从已标注文章中分层随机抽取 100 篇（正负各 50 篇），由作者在看不到训练标签的情况下按本指南逐篇判断。结果：与训练标签一致率 70%，Cohen's κ = 0.40（见 README）。复核表为 `data/labels/human_review_sample.csv`，可用 `python run.py review-agreement` 重新计算。

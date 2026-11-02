@@ -57,7 +57,7 @@ def main(argv=None):
     merge.add_argument("--annotations", type=Path, default=LABELS / "annotations")
     merge.add_argument("--adjudication", type=Path, default=LABELS / "adjudication.csv")
     merge.add_argument("--output", type=Path, default=LABELS)
-    review = commands.add_parser("review-agreement", help="Agreement between your own review labels and the training labels")
+    review = commands.add_parser("review-agreement", help="Agreement between the blind human review labels and the training labels")
     review.add_argument("--input", type=Path, default=LABELS / "human_review_sample.csv")
     split = commands.add_parser("split-labels", help="Stratified train/validation/test split")
     split.add_argument("--input", type=Path, default=LABELS / "cpu_labels.csv")

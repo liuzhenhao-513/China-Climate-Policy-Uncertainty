@@ -153,15 +153,21 @@ were not released. See [docs/METHOD.md](docs/METHOD.md).
 
 ## About the labels
 
-The original 28,800 human labels were not released. The labels here follow this project's guideline
-([docs/ANNOTATION_GUIDE.md](docs/ANNOTATION_GUIDE.md)), which operationalises the paper's definition of CCPU.
-Annotation was **LLM-assisted**: independent model instances read each article and returned a label, an uncertainty
-dimension, a confidence level and a reason. 300 articles were double-coded, and disagreements were adjudicated. Agreement
-between model instances overstates human inter-rater reliability. `data/labels/human_review_sample.csv` is a blind
-100-article sheet for manual review (`python run.py review-agreement`). A blind manual review of these 100 articles
-(50 labelled positive, 50 negative) agreed with the training labels on 70% of them (Cohen's κ = 0.40). The reviewer
-marked 60 as CPU against 50 in the labels: 20 articles labelled 0 were judged positive and 10 labelled 1 were judged
-negative. The training labels therefore apply a narrower definition than a human reader, and the high inter-model κ
+The original 28,800 human labels were not released. The labels here follow a guideline written for this project
+([docs/ANNOTATION_GUIDE.md](docs/ANNOTATION_GUIDE.md)) that operationalises the paper's definition of CCPU.
+
+* **Annotation (LLM-assisted).** Eight independent model instances read each article and returned a label, an
+  uncertainty dimension, a confidence level and a reason.
+* **Double coding.** 300 articles were coded by two different model instances, without being marked as duplicates
+  (κ = 0.92), and the 7 disagreements were adjudicated. Agreement between model instances overstates human
+  inter-rater reliability.
+* **Human blind review (by the author).** I read a stratified random sample of 100 articles (50 labelled positive,
+  50 negative) without seeing the labels and coded them by the guideline. My labels agreed with the training labels
+  on 70% of them (Cohen's κ = 0.40). The sheet is `data/labels/human_review_sample.csv`; `python run.py
+  review-agreement` recomputes the statistics.
+
+In the blind review I marked 60 as CPU against 50 in the labels: 20 articles labelled 0 were judged positive and 10
+labelled 1 were judged negative. The training labels therefore apply a narrower definition than a human reader, and the high inter-model κ
 (0.92) overstates label reliability. Refining the guideline on these disagreements is the next step.
 
 ## Differences from the original implementation

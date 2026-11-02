@@ -41,8 +41,8 @@ The labels are this project's own. They come from an explicit guideline that ope
 (uncertainty about *who* makes climate policy, *when/what* policy is adopted, and its *consequences*). They were
 produced with LLM assistance and checked for consistency with double annotation. They are not the authors' 28,800
 human labels, so differences between the reconstructed and published indices partly reflect differences in label
-definitions. `data/labels/human_review_sample.csv` is a blind sheet for an independent human check
-(`python run.py review-agreement`).
+definitions. The author blind-reviewed 100 of the labelled articles (`data/labels/human_review_sample.csv`):
+70% agreement, Cohen's κ = 0.40, with the human reading broader than the labels (README, "About the labels").
 
 ## Corpus composition
 
