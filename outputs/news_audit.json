@@ -1,0 +1,279 @@
+{
+  "generated_at_utc": "2026-10-22T20:46:42.516079+00:00",
+  "source_file": "news_six_all (1).csv",
+  "source_bytes": 7703600238,
+  "records_scanned": 1755826,
+  "full_scan": true,
+  "limit": null,
+  "date_min": "2000-01-01",
+  "date_max": "2022-12-31",
+  "counts_by_newspaper": {
+    "中国新闻社": 127723,
+    "人民日报": 481899,
+    "光明日报": 330755,
+    "环球时报": 183807,
+    "科技日报": 262245,
+    "经济日报": 369397
+  },
+  "issues": {
+    "header_date_mismatch": 0,
+    "repeated_export_index": 1273927,
+    "date_recovered_from_header_within_export_range": 22992,
+    "empty_content": 0,
+    "parse_error": 0,
+    "unknown_newspaper": 0,
+    "header_missing": 0
+  },
+  "examples_without_article_text": [],
+  "article_text_duplicates_checked": false,
+  "note": "The unnamed export index resets across source groups and is not an article key. Digital-paper aliases are merged. A 16-digit search interval is resolved only using an article-header date within that interval. Identical/reprinted article texts are not deduplicated. Unresolved multiple headers and invalid dates are parse errors.",
+  "paper_month_coverage": {
+    "expected_cells": 1656,
+    "observed_cells": 1596,
+    "missing_cell_count": 60,
+    "months_with_missing_newspapers": 59,
+    "missing_cells": [
+      {
+        "month": "2000-01",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2000-01",
+        "newspaper": "中国新闻社"
+      },
+      {
+        "month": "2000-02",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2001-04",
+        "newspaper": "中国新闻社"
+      },
+      {
+        "month": "2001-05",
+        "newspaper": "中国新闻社"
+      },
+      {
+        "month": "2001-06",
+        "newspaper": "中国新闻社"
+      },
+      {
+        "month": "2001-08",
+        "newspaper": "中国新闻社"
+      },
+      {
+        "month": "2001-10",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2001-11",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2001-12",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2002-01",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2002-02",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2002-03",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2002-04",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2002-05",
+        "newspaper": "科技日报"
+      },
+      {
+        "month": "2008-11",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2008-12",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-01",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-02",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-03",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-04",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-05",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-06",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-07",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-08",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-09",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-10",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-11",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2009-12",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-01",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-02",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-03",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-04",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-05",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-06",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-07",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-08",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-09",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-10",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-11",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2010-12",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2011-01",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2011-02",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2011-03",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2011-04",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2011-05",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2011-06",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2011-07",
+        "newspaper": "环球时报"
+      },
+      {
+        "month": "2022-01",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-02",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-03",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-04",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-05",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-06",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-07",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-08",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-09",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-10",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-11",
+        "newspaper": "经济日报"
+      },
+      {
+        "month": "2022-12",
+        "newspaper": "经济日报"
+      }
+    ],
+    "note": "A zero article denominator is missing corpus coverage, not zero CPU. Strict full-period aggregation cannot run until a missing-cell policy or additional data are supplied."
+  }
+}

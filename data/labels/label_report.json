@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-22T23:28:18.133663+00:00",
+  "labelled_articles": 2300,
+  "by_role": {
+    "main": 2000,
+    "noncandidate": 300
+  },
+  "positives_by_role": {
+    "main": 346
+  },
+  "positive_rate_main": 0.173,
+  "positive_rate_noncandidate": 0.0,
+  "double_annotated": 300,
+  "raw_agreement": 0.9766666666666667,
+  "cohen_kappa": 0.924698795180723,
+  "disagreements": 7,
+  "adjudicated": 7
+}

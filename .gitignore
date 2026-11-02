@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+*.egg-info/
+
+# raw inputs: download from Figshare (see data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+# large or regenerated intermediates
+data/interim/
+data/labels/batches/
+data/labels/splits/
+
+# model weights (MacBERT checkpoint ~400 MB): publish as a GitHub Release asset
+models/
+
+*.zip
+*.partial
+# reading copy of the blind review sheet
+data/labels/human_review_reading.md

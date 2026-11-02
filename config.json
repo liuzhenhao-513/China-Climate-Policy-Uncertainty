@@ -1,0 +1,19 @@
+{
+  "source_dir": "..",
+  "news_file": "news_six_all (1).csv",
+  "national_file": "China's CPU index.xlsx",
+  "provincial_file": "China's provincial CPU index.xlsx",
+  "paper_start": "2000-01-01",
+  "paper_end": "2022-12-31",
+  "seed": 666,
+  "base_model": "models/chinese-macbert-base",
+  "max_length": 256,
+  "epochs": 6,
+  "batch_size": 8,
+  "learning_rate": 3e-5,
+  "label_smoothing": 0.1,
+  "freeze_layers": 6,
+  "standard_deviation_ddof": 0,
+  "missing_policy": "available",
+  "note": "source_dir and base_model are relative to this file. base_model may also be the Hugging Face id hfl/chinese-macbert-base. max_length/epochs are reduced from the released script (500/15) and the lowest 6 encoder layers are frozen so the model can be trained on a laptop CPU; on a GPU use max_length 500, freeze_layers 0 and more epochs."
+}

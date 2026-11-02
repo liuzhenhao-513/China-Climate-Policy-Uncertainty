@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "China Climate Policy Uncertainty (CCPU): text-based index, annotated dataset and MacBERT classifier"
+authors:
+  - alias: "reviver"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/liuzhenhao-513/China-Climate-Policy-Uncertainty"
+keywords:
+  - climate policy uncertainty
+  - China
+  - text as data
+  - MacBERT
+  - newspaper
+references:
+  - type: article
+    title: "A news-based climate policy uncertainty index for China"
+    authors:
+      - family-names: Ma
+        given-names: Yan-Ran
+      - family-names: Liu
+        given-names: Zhenhua
+      - family-names: Ma
+        given-names: Dandan
+      - family-names: Zhai
+        given-names: Pengxiang
+      - family-names: Guo
+        given-names: Kun
+      - family-names: Zhang
+        given-names: Dayong
+      - family-names: Ji
+        given-names: Qiang
+    journal: Scientific Data
+    volume: 10
+    start: 881
+    year: 2023
+    doi: 10.1038/s41597-023-02817-5

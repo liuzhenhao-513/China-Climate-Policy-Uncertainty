@@ -1,0 +1,12 @@
+2026-10-22 18:37:18 train=1399 validation=300 test=301 device=cpu base=models/chinese-macbert-base epochs=4 batch=8 lr=2e-05 max_length=256
+2026-10-22 18:40:13 epoch=1 step=25/175 loss=0.2206
+2026-10-22 18:43:27 epoch=1 step=50/175 loss=0.4900
+2026-10-22 18:48:14 epoch=1 step=75/175 loss=0.6271
+2026-10-22 18:53:11 epoch=1 step=100/175 loss=0.4767
+2026-10-22 18:55:43 epoch=1 step=125/175 loss=0.4581
+2026-10-22 19:01:14 epoch=1 step=150/175 loss=0.8858
+2026-10-22 19:06:54 epoch=1 step=175/175 loss=0.2212
+2026-10-22 19:07:57 epoch=1 train_loss=0.52835 val_loss=0.47037 val_f1=0.00000
+2026-10-22 19:11:24 epoch=2 step=25/175 loss=0.6465
+2026-10-22 19:18:54 epoch=2 step=50/175 loss=0.4673
+2026-10-22 19:24:49 epoch=2 step=75/175 loss=0.2576

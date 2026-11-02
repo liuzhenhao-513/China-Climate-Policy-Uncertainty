@@ -1,0 +1,96 @@
+{
+  "generated_at_utc": "2026-10-22T20:37:03.299441+00:00",
+  "files": [
+    {
+      "local_name": "code (1).rar",
+      "bytes": 7456,
+      "sha256": "b729a3d77a03a1cc8c79c81b350da8a608babf4b7ef71401f34e2c9ec6d34e38",
+      "md5": "9633cc3bc42cfa2401aa8eca4869d04e",
+      "figshare_item_id": 24071250,
+      "figshare_version": 3,
+      "doi": "10.6084/m9.figshare.24071250.v3",
+      "url": "https://figshare.com/articles/software/codes_for_MacBERT_model/24071250",
+      "figshare_file_name": "code.rar",
+      "figshare_file_id": 42230694,
+      "figshare_expected_md5": "9633cc3bc42cfa2401aa8eca4869d04e",
+      "matches_figshare_checksum": true,
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    },
+    {
+      "local_name": "news_six_all (1).csv",
+      "bytes": 7703600238,
+      "sha256": "385e55cd7ef332258f02b8b7872ca7af2108fb9a9b37dd86977608f4776b22a1",
+      "md5": "1e936b76d1ee8cf47c82df0d047e5011",
+      "figshare_item_id": 24071310,
+      "figshare_version": 3,
+      "doi": "10.6084/m9.figshare.24071310.v3",
+      "url": "https://figshare.com/articles/dataset/dataset_of_news_article/24071310",
+      "figshare_file_name": "news_six_all.csv",
+      "figshare_file_id": 42232698,
+      "figshare_expected_md5": "1e936b76d1ee8cf47c82df0d047e5011",
+      "matches_figshare_checksum": true,
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    },
+    {
+      "local_name": "China's CPU index.xlsx",
+      "bytes": 257991,
+      "sha256": "8d6ec6c83666e578804ccf44b2f00458de7325ff6539787d012c8eaa119dfb22",
+      "md5": "7b26f11523a67a5b03f10667dbddc2e4",
+      "figshare_item_id": 24071193,
+      "figshare_version": 5,
+      "doi": "10.6084/m9.figshare.24071193.v5",
+      "url": "https://figshare.com/articles/dataset/China_s_CPU_index/24071193",
+      "figshare_file_name": "China's CPU index.xlsx",
+      "figshare_file_id": 68765452,
+      "figshare_expected_md5": "7b26f11523a67a5b03f10667dbddc2e4",
+      "matches_figshare_checksum": true,
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    },
+    {
+      "local_name": "China's provincial CPU index.xlsx",
+      "bytes": 136488,
+      "sha256": "74777f8869d1e40e35a85e897ec944c5b827c467bdb1d9dc3f019ee016129835",
+      "md5": "4f16e5e45ee087c9c76228e7184cde7d",
+      "figshare_item_id": 24071256,
+      "figshare_version": 7,
+      "doi": "10.6084/m9.figshare.24071256.v7",
+      "url": "https://figshare.com/articles/dataset/China_s_provincial_CPU_index/24071256",
+      "figshare_file_name": "China's provincial CPU index.xlsx",
+      "figshare_file_id": 68765464,
+      "figshare_expected_md5": "4f16e5e45ee087c9c76228e7184cde7d",
+      "matches_figshare_checksum": true,
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    },
+    {
+      "local_name": "s41597-023-02817-5.pdf",
+      "bytes": 1506724,
+      "sha256": "5989ad9751b30660835aa2fcdbd4b4141d283598df26793d7e4d61449bb99806",
+      "doi": "10.1038/s41597-023-02817-5",
+      "role": "methodology reference"
+    },
+    {
+      "local_name": "41597_2023_2817_MOESM1_ESM.docx",
+      "bytes": 8396817,
+      "sha256": "b23593ca78fd025b6b9c19c5ede5293556176fd7edf9d4e9018b8c7338def5f4",
+      "doi": "10.1038/s41597-023-02817-5",
+      "role": "methodology reference"
+    }
+  ],
+  "warning": "Figshare metadata says CC0; embedded news contains third-party copyright notices. This project package excludes newspaper full text."
+}

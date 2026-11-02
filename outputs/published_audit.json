@@ -1,0 +1,88 @@
+{
+  "generated_at_utc": "2026-10-22T20:49:35.711627+00:00",
+  "rows": 20749,
+  "paper_period_rows": 17969,
+  "duplicate_keys": 0,
+  "invalid_or_missing_ccpu": 0,
+  "sheets": [
+    {
+      "file": "China's CPU index.xlsx",
+      "sheet": "Daily",
+      "frequency": "daily",
+      "level": "national",
+      "observations": 9709,
+      "periods": 9709,
+      "date_min": "2000-01-01",
+      "date_max": "2026-07-31",
+      "minimum": 0,
+      "maximum": 12.0880736430485
+    },
+    {
+      "file": "China's CPU index.xlsx",
+      "sheet": "Monthly",
+      "frequency": "monthly",
+      "level": "national",
+      "observations": 319,
+      "periods": 319,
+      "date_min": "2000-01-01",
+      "date_max": "2026-07-01",
+      "minimum": 0.2918037600901248,
+      "maximum": 4.12153682902061
+    },
+    {
+      "file": "China's CPU index.xlsx",
+      "sheet": "Annual ",
+      "frequency": "annual",
+      "level": "national",
+      "observations": 26,
+      "periods": 26,
+      "date_min": "2000-01-01",
+      "date_max": "2025-01-01",
+      "minimum": 0.8822043167618979,
+      "maximum": 3.99994366101901
+    },
+    {
+      "file": "China's provincial CPU index.xlsx",
+      "sheet": "Monthly",
+      "frequency": "monthly",
+      "level": "province",
+      "observations": 9889,
+      "periods": 319,
+      "date_min": "2000-01-01",
+      "date_max": "2026-07-01",
+      "minimum": 0,
+      "maximum": 7.85855670983217
+    },
+    {
+      "file": "China's provincial CPU index.xlsx",
+      "sheet": "Annual",
+      "frequency": "annual",
+      "level": "province",
+      "observations": 806,
+      "periods": 26,
+      "date_min": "2000-01-01",
+      "date_max": "2025-01-01",
+      "minimum": 0.4771799896666666,
+      "maximum": 5.491304135530904
+    }
+  ],
+  "continuity": {
+    "series_checked": 65,
+    "missing_periods": []
+  },
+  "source_files": [
+    {
+      "name": "China's CPU index.xlsx",
+      "sha256": "8d6ec6c83666e578804ccf44b2f00458de7325ff6539787d012c8eaa119dfb22",
+      "bytes": 257991
+    },
+    {
+      "name": "China's provincial CPU index.xlsx",
+      "sha256": "74777f8869d1e40e35a85e897ec944c5b827c467bdb1d9dc3f019ee016129835",
+      "bytes": 136488
+    }
+  ],
+  "origin": "Published author series, tidied; not reconstructed from text.",
+  "date_note": "Monthly labels mapped to first day of month. Annual labels mapped to January 1; not a daily observation.",
+  "vintage_note": "The 2000-2022 subset uses the supplied updated vintage, not the original publication vintage."
+}

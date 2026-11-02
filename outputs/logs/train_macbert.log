@@ -1,0 +1,51 @@
+2026-10-22 21:23:35 train=1399 validation=300 test=301 device=cpu base=models/chinese-macbert-base epochs=6 batch=8 lr=3e-05 max_length=256 frozen_layers=6 trainable_params=43,119,362 class_weight=[0.604580819606781, 2.890495777130127]
+2026-10-22 21:25:00 epoch=1 step=25/175 loss=0.7138
+2026-10-22 21:26:30 epoch=1 step=50/175 loss=0.7825
+2026-10-22 21:28:01 epoch=1 step=75/175 loss=0.8915
+2026-10-22 21:29:32 epoch=1 step=100/175 loss=0.7318
+2026-10-22 21:31:01 epoch=1 step=125/175 loss=0.6448
+2026-10-22 21:32:30 epoch=1 step=150/175 loss=0.6390
+2026-10-22 21:34:00 epoch=1 step=175/175 loss=0.8160
+2026-10-22 21:34:36 epoch=1 train_loss=0.73889 val_loss=0.81634 val_f1=0.39357
+2026-10-22 21:36:13 epoch=2 step=25/175 loss=0.4167
+2026-10-22 21:37:48 epoch=2 step=50/175 loss=0.3419
+2026-10-22 21:39:18 epoch=2 step=75/175 loss=0.6352
+2026-10-22 21:40:49 epoch=2 step=100/175 loss=1.0915
+2026-10-22 21:42:21 epoch=2 step=125/175 loss=0.4709
+2026-10-22 21:43:51 epoch=2 step=150/175 loss=0.4839
+2026-10-22 21:45:23 epoch=2 step=175/175 loss=0.8434
+2026-10-22 21:46:00 epoch=2 train_loss=0.54218 val_loss=0.52176 val_f1=0.58599
+2026-10-22 21:47:31 epoch=3 step=25/175 loss=0.6271
+2026-10-22 21:49:02 epoch=3 step=50/175 loss=0.6320
+2026-10-22 21:50:32 epoch=3 step=75/175 loss=0.8734
+2026-10-22 21:52:03 epoch=3 step=100/175 loss=0.3335
+2026-10-22 21:53:34 epoch=3 step=125/175 loss=0.6733
+2026-10-22 21:55:06 epoch=3 step=150/175 loss=0.4237
+2026-10-22 21:56:36 epoch=3 step=175/175 loss=0.6370
+2026-10-22 21:57:12 epoch=3 train_loss=0.46734 val_loss=0.31380 val_f1=0.66000
+2026-10-22 21:58:45 epoch=4 step=25/175 loss=0.3343
+2026-10-22 22:00:18 epoch=4 step=50/175 loss=0.6110
+2026-10-22 22:01:48 epoch=4 step=75/175 loss=0.6052
+2026-10-22 22:03:18 epoch=4 step=100/175 loss=0.3028
+2026-10-22 22:04:48 epoch=4 step=125/175 loss=0.6110
+2026-10-22 22:06:19 epoch=4 step=150/175 loss=0.6053
+2026-10-22 22:07:51 epoch=4 step=175/175 loss=0.3894
+2026-10-22 22:08:27 epoch=4 train_loss=0.42846 val_loss=0.43290 val_f1=0.65672
+2026-10-22 22:09:58 epoch=5 step=25/175 loss=0.2143
+2026-10-22 22:11:30 epoch=5 step=50/175 loss=0.6092
+2026-10-22 22:13:01 epoch=5 step=75/175 loss=0.2872
+2026-10-22 22:14:31 epoch=5 step=100/175 loss=0.6133
+2026-10-22 22:16:02 epoch=5 step=125/175 loss=0.3810
+2026-10-22 22:17:34 epoch=5 step=150/175 loss=0.4416
+2026-10-22 22:19:04 epoch=5 step=175/175 loss=0.2738
+2026-10-22 22:19:40 epoch=5 train_loss=0.38980 val_loss=0.39803 val_f1=0.70000
+2026-10-22 22:21:12 epoch=6 step=25/175 loss=0.3938
+2026-10-22 22:22:43 epoch=6 step=50/175 loss=0.3831
+2026-10-22 22:24:14 epoch=6 step=75/175 loss=0.3825
+2026-10-22 22:25:45 epoch=6 step=100/175 loss=0.3822
+2026-10-22 22:27:16 epoch=6 step=125/175 loss=0.6048
+2026-10-22 22:28:48 epoch=6 step=150/175 loss=0.4002
+2026-10-22 22:30:18 epoch=6 step=175/175 loss=0.1347
+2026-10-22 22:30:54 epoch=6 train_loss=0.37940 val_loss=0.37431 val_f1=0.69492
+2026-10-22 22:31:29 validation-selected threshold=0.56
+2026-10-22 22:32:06 test argmax f1=0.6984; test f1 at threshold 0.56 = 0.7009

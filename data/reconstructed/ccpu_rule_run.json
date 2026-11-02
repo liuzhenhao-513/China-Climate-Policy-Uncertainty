@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-10-22T23:17:51.954725+00:00",
+  "article_index": "article_index.csv",
+  "predictions": null,
+  "label_column": "rule_label",
+  "normalization_start": "2000-01-01",
+  "normalization_end": "2022-12-31",
+  "ddof": 0,
+  "missing_policy": "available",
+  "newspapers": [
+    "人民日报",
+    "光明日报",
+    "经济日报",
+    "环球时报",
+    "科技日报",
+    "中国新闻社"
+  ],
+  "formula": "X_it=N_cpu_it/N_all_it; Y_it=X_it/sd_T(X_i); Z_t=mean over observed i of Y_it",
+  "outputs": {
+    "monthly": 276,
+    "annual": 23,
+    "daily": 8388
+  },
+  "articles": 1755826,
+  "cpu_articles": 57633
+}

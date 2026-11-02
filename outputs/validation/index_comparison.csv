@@ -1,0 +1,22 @@
+﻿variant,description,frequency,overlap,pearson_r,spearman_rho,mae,rmse
+ccpu_macbert,"MacBERT labels, paper formula (CPU share)",monthly,276,0.1835,0.368,1.1797,1.3737
+ccpu_macbert,"MacBERT labels, paper formula (CPU share)",annual,23,0.1227,0.415,1.2692,1.4066
+ccpu_macbert,"MacBERT labels, paper formula (CPU share)",daily,8388,0.2039,0.3934,0.7569,0.9412
+ccpu_macbert_count,"MacBERT labels, fixed denominator (CPU count)",monthly,276,0.4771,0.6322,1.0137,1.2021
+ccpu_macbert_count,"MacBERT labels, fixed denominator (CPU count)",annual,23,0.5215,0.5385,1.0035,1.1262
+ccpu_macbert_count,"MacBERT labels, fixed denominator (CPU count)",daily,8388,0.3383,0.486,0.6833,0.8792
+ccpu_tfidf,"TF-IDF + LR labels, CPU share",monthly,276,0.1396,0.2832,1.2113,1.4204
+ccpu_tfidf,"TF-IDF + LR labels, CPU share",annual,23,0.0776,0.2638,1.2796,1.4464
+ccpu_tfidf,"TF-IDF + LR labels, CPU share",daily,8388,0.1884,0.3572,0.7799,0.9693
+ccpu_tfidf_count,"TF-IDF + LR labels, CPU count",monthly,276,0.4168,0.5885,1.0803,1.2871
+ccpu_tfidf_count,"TF-IDF + LR labels, CPU count",annual,23,0.4469,0.5188,1.0867,1.2252
+ccpu_tfidf_count,"TF-IDF + LR labels, CPU count",daily,8388,0.3032,0.4288,0.7153,0.9182
+ccpu_rule,"Dictionary rule, share",monthly,276,0.2501,0.5045,1.0554,1.1974
+ccpu_rule,"Dictionary rule, share",annual,23,0.2084,0.5128,1.1699,1.2851
+ccpu_rule,"Dictionary rule, share",daily,8388,0.2523,0.4186,0.657,0.8482
+ccpu_rule_count,"Dictionary rule, count",monthly,276,0.6534,0.6917,0.7876,0.9005
+ccpu_rule_count,"Dictionary rule, count",annual,23,0.6837,0.6453,0.8238,0.9046
+ccpu_rule_count,"Dictionary rule, count",daily,8388,0.4779,0.6125,0.5421,0.7175
+ccpu_climate,"Any climate term, share (no classifier)",monthly,276,0.2171,0.4864,0.9972,1.147
+ccpu_climate,"Any climate term, share (no classifier)",annual,23,0.1625,0.5138,1.1196,1.2362
+ccpu_climate,"Any climate term, share (no classifier)",daily,8388,0.2641,0.4022,0.5978,0.7924

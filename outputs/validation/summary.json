@@ -1,0 +1,844 @@
+{
+  "generated_at_utc": "2026-10-23T08:08:27.143912+00:00",
+  "index_comparison": [
+    {
+      "variant": "ccpu_macbert",
+      "description": "MacBERT labels, paper formula (CPU share)",
+      "frequency": "monthly",
+      "overlap": 276,
+      "pearson_r": 0.1835,
+      "spearman_rho": 0.368,
+      "mae": 1.1797,
+      "rmse": 1.3737
+    },
+    {
+      "variant": "ccpu_macbert",
+      "description": "MacBERT labels, paper formula (CPU share)",
+      "frequency": "annual",
+      "overlap": 23,
+      "pearson_r": 0.1227,
+      "spearman_rho": 0.415,
+      "mae": 1.2692,
+      "rmse": 1.4066
+    },
+    {
+      "variant": "ccpu_macbert",
+      "description": "MacBERT labels, paper formula (CPU share)",
+      "frequency": "daily",
+      "overlap": 8388,
+      "pearson_r": 0.2039,
+      "spearman_rho": 0.3934,
+      "mae": 0.7569,
+      "rmse": 0.9412
+    },
+    {
+      "variant": "ccpu_macbert_count",
+      "description": "MacBERT labels, fixed denominator (CPU count)",
+      "frequency": "monthly",
+      "overlap": 276,
+      "pearson_r": 0.4771,
+      "spearman_rho": 0.6322,
+      "mae": 1.0137,
+      "rmse": 1.2021
+    },
+    {
+      "variant": "ccpu_macbert_count",
+      "description": "MacBERT labels, fixed denominator (CPU count)",
+      "frequency": "annual",
+      "overlap": 23,
+      "pearson_r": 0.5215,
+      "spearman_rho": 0.5385,
+      "mae": 1.0035,
+      "rmse": 1.1262
+    },
+    {
+      "variant": "ccpu_macbert_count",
+      "description": "MacBERT labels, fixed denominator (CPU count)",
+      "frequency": "daily",
+      "overlap": 8388,
+      "pearson_r": 0.3383,
+      "spearman_rho": 0.486,
+      "mae": 0.6833,
+      "rmse": 0.8792
+    },
+    {
+      "variant": "ccpu_tfidf",
+      "description": "TF-IDF + LR labels, CPU share",
+      "frequency": "monthly",
+      "overlap": 276,
+      "pearson_r": 0.1396,
+      "spearman_rho": 0.2832,
+      "mae": 1.2113,
+      "rmse": 1.4204
+    },
+    {
+      "variant": "ccpu_tfidf",
+      "description": "TF-IDF + LR labels, CPU share",
+      "frequency": "annual",
+      "overlap": 23,
+      "pearson_r": 0.0776,
+      "spearman_rho": 0.2638,
+      "mae": 1.2796,
+      "rmse": 1.4464
+    },
+    {
+      "variant": "ccpu_tfidf",
+      "description": "TF-IDF + LR labels, CPU share",
+      "frequency": "daily",
+      "overlap": 8388,
+      "pearson_r": 0.1884,
+      "spearman_rho": 0.3572,
+      "mae": 0.7799,
+      "rmse": 0.9693
+    },
+    {
+      "variant": "ccpu_tfidf_count",
+      "description": "TF-IDF + LR labels, CPU count",
+      "frequency": "monthly",
+      "overlap": 276,
+      "pearson_r": 0.4168,
+      "spearman_rho": 0.5885,
+      "mae": 1.0803,
+      "rmse": 1.2871
+    },
+    {
+      "variant": "ccpu_tfidf_count",
+      "description": "TF-IDF + LR labels, CPU count",
+      "frequency": "annual",
+      "overlap": 23,
+      "pearson_r": 0.4469,
+      "spearman_rho": 0.5188,
+      "mae": 1.0867,
+      "rmse": 1.2252
+    },
+    {
+      "variant": "ccpu_tfidf_count",
+      "description": "TF-IDF + LR labels, CPU count",
+      "frequency": "daily",
+      "overlap": 8388,
+      "pearson_r": 0.3032,
+      "spearman_rho": 0.4288,
+      "mae": 0.7153,
+      "rmse": 0.9182
+    },
+    {
+      "variant": "ccpu_rule",
+      "description": "Dictionary rule, share",
+      "frequency": "monthly",
+      "overlap": 276,
+      "pearson_r": 0.2501,
+      "spearman_rho": 0.5045,
+      "mae": 1.0554,
+      "rmse": 1.1974
+    },
+    {
+      "variant": "ccpu_rule",
+      "description": "Dictionary rule, share",
+      "frequency": "annual",
+      "overlap": 23,
+      "pearson_r": 0.2084,
+      "spearman_rho": 0.5128,
+      "mae": 1.1699,
+      "rmse": 1.2851
+    },
+    {
+      "variant": "ccpu_rule",
+      "description": "Dictionary rule, share",
+      "frequency": "daily",
+      "overlap": 8388,
+      "pearson_r": 0.2523,
+      "spearman_rho": 0.4186,
+      "mae": 0.657,
+      "rmse": 0.8482
+    },
+    {
+      "variant": "ccpu_rule_count",
+      "description": "Dictionary rule, count",
+      "frequency": "monthly",
+      "overlap": 276,
+      "pearson_r": 0.6534,
+      "spearman_rho": 0.6917,
+      "mae": 0.7876,
+      "rmse": 0.9005
+    },
+    {
+      "variant": "ccpu_rule_count",
+      "description": "Dictionary rule, count",
+      "frequency": "annual",
+      "overlap": 23,
+      "pearson_r": 0.6837,
+      "spearman_rho": 0.6453,
+      "mae": 0.8238,
+      "rmse": 0.9046
+    },
+    {
+      "variant": "ccpu_rule_count",
+      "description": "Dictionary rule, count",
+      "frequency": "daily",
+      "overlap": 8388,
+      "pearson_r": 0.4779,
+      "spearman_rho": 0.6125,
+      "mae": 0.5421,
+      "rmse": 0.7175
+    },
+    {
+      "variant": "ccpu_climate",
+      "description": "Any climate term, share (no classifier)",
+      "frequency": "monthly",
+      "overlap": 276,
+      "pearson_r": 0.2171,
+      "spearman_rho": 0.4864,
+      "mae": 0.9972,
+      "rmse": 1.147
+    },
+    {
+      "variant": "ccpu_climate",
+      "description": "Any climate term, share (no classifier)",
+      "frequency": "annual",
+      "overlap": 23,
+      "pearson_r": 0.1625,
+      "spearman_rho": 0.5138,
+      "mae": 1.1196,
+      "rmse": 1.2362
+    },
+    {
+      "variant": "ccpu_climate",
+      "description": "Any climate term, share (no classifier)",
+      "frequency": "daily",
+      "overlap": 8388,
+      "pearson_r": 0.2641,
+      "spearman_rho": 0.4022,
+      "mae": 0.5978,
+      "rmse": 0.7924
+    }
+  ],
+  "classifier_test_metrics": {
+    "MacBERT": {
+      "n": 301,
+      "tp": 41,
+      "tn": 225,
+      "fp": 24,
+      "fn": 11,
+      "accuracy": 0.8837209302325582,
+      "precision": 0.6307692307692307,
+      "recall": 0.7884615384615384,
+      "f1": 0.7008547008547009
+    },
+    "TF-IDF + LR": {
+      "n": 301,
+      "tp": 40,
+      "tn": 237,
+      "fp": 12,
+      "fn": 12,
+      "accuracy": 0.920265780730897,
+      "precision": 0.7692307692307693,
+      "recall": 0.7692307692307693,
+      "f1": 0.7692307692307693
+    },
+    "Dictionary rule": {
+      "n": 301,
+      "tp": 22,
+      "tn": 224,
+      "fp": 25,
+      "fn": 30,
+      "accuracy": 0.8172757475083057,
+      "precision": 0.46808510638297873,
+      "recall": 0.4230769230769231,
+      "f1": 0.4444444444444444
+    }
+  },
+  "event_check": {
+    "ccpu_macbert": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 2,
+        "percentile": 0.996
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 4,
+        "percentile": 0.989
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 1,
+        "percentile": 1.0
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 54,
+        "percentile": 0.808
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 107,
+        "percentile": 0.616
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 39,
+        "percentile": 0.862
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 74,
+        "percentile": 0.736
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 126,
+        "percentile": 0.547
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 142,
+        "percentile": 0.489
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 55,
+        "percentile": 0.804
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 17,
+        "percentile": 0.942
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 18,
+        "percentile": 0.938
+      }
+    ],
+    "ccpu_macbert_count": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 10,
+        "percentile": 0.967
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 3,
+        "percentile": 0.993
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 1,
+        "percentile": 1.0
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 13,
+        "percentile": 0.957
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 82,
+        "percentile": 0.707
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 5,
+        "percentile": 0.986
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 56,
+        "percentile": 0.801
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 130,
+        "percentile": 0.533
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 132,
+        "percentile": 0.525
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 31,
+        "percentile": 0.891
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 8,
+        "percentile": 0.975
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 4,
+        "percentile": 0.989
+      }
+    ],
+    "ccpu_tfidf": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 3,
+        "percentile": 0.993
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 4,
+        "percentile": 0.989
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 1,
+        "percentile": 1.0
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 54,
+        "percentile": 0.808
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 121,
+        "percentile": 0.565
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 39,
+        "percentile": 0.862
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 82,
+        "percentile": 0.707
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 137,
+        "percentile": 0.507
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 139,
+        "percentile": 0.5
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 53,
+        "percentile": 0.812
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 14,
+        "percentile": 0.953
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 10,
+        "percentile": 0.967
+      }
+    ],
+    "ccpu_tfidf_count": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 11,
+        "percentile": 0.964
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 3,
+        "percentile": 0.993
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 1,
+        "percentile": 1.0
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 14,
+        "percentile": 0.953
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 89,
+        "percentile": 0.681
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 6,
+        "percentile": 0.982
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 61,
+        "percentile": 0.783
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 128,
+        "percentile": 0.54
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 116,
+        "percentile": 0.583
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 29,
+        "percentile": 0.899
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 8,
+        "percentile": 0.975
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 2,
+        "percentile": 0.996
+      }
+    ],
+    "ccpu_rule": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 24,
+        "percentile": 0.917
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 8,
+        "percentile": 0.975
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 6,
+        "percentile": 0.982
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 77,
+        "percentile": 0.725
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 110,
+        "percentile": 0.605
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 75,
+        "percentile": 0.732
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 79,
+        "percentile": 0.717
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 149,
+        "percentile": 0.464
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 102,
+        "percentile": 0.634
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 47,
+        "percentile": 0.833
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 17,
+        "percentile": 0.942
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 20,
+        "percentile": 0.931
+      }
+    ],
+    "ccpu_rule_count": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 90,
+        "percentile": 0.678
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 10,
+        "percentile": 0.967
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 1,
+        "percentile": 1.0
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 22,
+        "percentile": 0.924
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 80,
+        "percentile": 0.714
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 27,
+        "percentile": 0.906
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 53,
+        "percentile": 0.812
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 141,
+        "percentile": 0.493
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 100,
+        "percentile": 0.641
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 29,
+        "percentile": 0.899
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 4,
+        "percentile": 0.989
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 3,
+        "percentile": 0.993
+      }
+    ],
+    "ccpu_climate": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 20,
+        "percentile": 0.931
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 7,
+        "percentile": 0.978
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 2,
+        "percentile": 0.996
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 76,
+        "percentile": 0.728
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 107,
+        "percentile": 0.616
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 74,
+        "percentile": 0.736
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 91,
+        "percentile": 0.674
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 133,
+        "percentile": 0.522
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 129,
+        "percentile": 0.536
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 59,
+        "percentile": 0.79
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 32,
+        "percentile": 0.888
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 31,
+        "percentile": 0.891
+      }
+    ],
+    "published": [
+      {
+        "month": "2007-06",
+        "event": "National Climate Change Programme",
+        "rank": 119,
+        "percentile": 0.572
+      },
+      {
+        "month": "2009-11",
+        "event": "China announces 2020 carbon-intensity target",
+        "rank": 170,
+        "percentile": 0.388
+      },
+      {
+        "month": "2009-12",
+        "event": "Copenhagen COP15",
+        "rank": 162,
+        "percentile": 0.417
+      },
+      {
+        "month": "2011-12",
+        "event": "Durban COP17",
+        "rank": 94,
+        "percentile": 0.663
+      },
+      {
+        "month": "2015-06",
+        "event": "China submits NDC",
+        "rank": 99,
+        "percentile": 0.645
+      },
+      {
+        "month": "2015-12",
+        "event": "Paris Agreement",
+        "rank": 38,
+        "percentile": 0.866
+      },
+      {
+        "month": "2017-06",
+        "event": "US withdrawal from Paris announced",
+        "rank": 39,
+        "percentile": 0.862
+      },
+      {
+        "month": "2017-12",
+        "event": "National ETS launched",
+        "rank": 17,
+        "percentile": 0.942
+      },
+      {
+        "month": "2020-09",
+        "event": "Dual-carbon pledge",
+        "rank": 47,
+        "percentile": 0.833
+      },
+      {
+        "month": "2021-07",
+        "event": "National ETS trading starts",
+        "rank": 28,
+        "percentile": 0.902
+      },
+      {
+        "month": "2021-10",
+        "event": "Peaking & neutrality guidance",
+        "rank": 1,
+        "percentile": 1.0
+      },
+      {
+        "month": "2021-11",
+        "event": "Glasgow COP26",
+        "rank": 5,
+        "percentile": 0.986
+      }
+    ]
+  }
+}
